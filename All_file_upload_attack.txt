@@ -1,0 +1,12 @@
+Here’s a top 10 list of things that you can achieve by uploading:
+
+ASP / ASPX / PHP5 / PHP / PHP3: Webshell / RCE
+SVG: Stored XSS / SSRF / XXE
+GIF: Stored XSS / SSRF
+CSV: CSV injection
+XML: XXE
+AVI: LFI / SSRF
+HTML / JS : HTML injection / XSS / Open redirect
+PNG / JPEG: Pixel flood attack (DoS)
+ZIP: RCE via LFI / DoS
+PDF / PPTX: SSRF / BLIND XXE
